@@ -1,6 +1,12 @@
 
 # 스마트문화콘텐츠 웹 & 앱개발 과정, 두 번 째 프로젝트 #
 [과정 Summary 보기](https://chanjungkim.github.io/study/androidstudy/)
+* ##### 3팀
+* ##### 팀장: [최수람]()
+* ##### 팀원: [김찬중](https://www.linkedin.com/in/chanjungkim/), [김현욱](), [이종률]()  
+* ##### 주제: 채팅 사이트
+* ##### 사용 언어: HTML, CSS, Javascript, JSP
+* ##### 프로젝트 기간: 2017년 9월 25일 ~ 미정 (한 달 예정)
 
 ## 필요한 공부 내용 ##
 ### WebRTC 이해하기 ###
@@ -21,14 +27,6 @@
     </td>
   </tr>
 </table>
-
-
-* ##### 3팀
-* ##### 팀장: [최수람]()
-* ##### 팀원: [김찬중](https://www.linkedin.com/in/chanjungkim/), [김현욱](), [이종률]()  
-* ##### 주제: 채팅 사이트
-* ##### 사용 언어: HTML, CSS, Javascript, JSP
-* ##### 프로젝트 기간: 2017년 9월 25일 ~ 미정 (한 달 예정)
 
 #### 1차 회의
 * 날짜: 2017. 09. 25
