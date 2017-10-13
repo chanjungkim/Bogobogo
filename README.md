@@ -16,6 +16,8 @@
     </td>
   </tr>
 </table>
+
+
 # 스마트문화콘텐츠 웹 & 앱개발 과정, 두 번 째 프로젝트 #
 [과정 Summary 보기](https://chanjungkim.github.io/study/androidstudy/)
 * ##### 3팀
