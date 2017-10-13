@@ -1,17 +1,18 @@
 # WebRTC 이해하기
 <table border=1>
   <tr>
-    <td colspan="2">[Youtube](https://www.youtube.com/watch?v=Y1mx7cx6ckI&t=561s)</td>
+    <td>Youtube</td>
+    <td><a href="https://www.youtube.com/watch?v=Y1mx7cx6ckI&t=561s">Servers for WebRTC: It is not all Peer to Peer (Kranky Geek WebRTC Brazil 2016)</a>
   </tr>
   <tr>
-    <td colspan="2">[Blog](https://www.html5rocks.com/ko/tutorials/webrtc/infrastructure/)</td>
+    <td>Blog</td>
+    <td><a href="https://www.html5rocks.com/ko/tutorials/webrtc/infrastructure/">WebRTC in the real world: STUN, TURN and signaling</a></td>
   </tr>
   <tr>
     <td>Udemy</td>
-    <td>
-[Learning WebRTC Application Development](https://www.udemy.com/learning-webrtc-application-development/)<br>
-[Developing Real Time Applications with WebRTC](https://www.udemy.com/developing-real-time-applications-with-webrtc/)<br>
-[Introduction to WebRTC](https://www.udemy.com/introduction-to-webrtc/)<br>
+    <td><a href="https://www.udemy.com/learning-webrtc-application-development">[Learning WebRTC Application Development]</a><br>
+      <a href="https://www.udemy.com/developing-real-time-applications-with-webrtc/">[Developing Real Time Applications with WebRTC]</a><br>
+      <a href="https://www.udemy.com/introduction-to-webrtc/">[Introduction to WebRTC]</a><br>
     </td>
   </tr>
 </table>
