@@ -1,4 +1,9 @@
-# WebRTC 이해하기
+
+# 스마트문화콘텐츠 웹 & 앱개발 과정, 두 번 째 프로젝트 #
+[과정 Summary 보기](https://chanjungkim.github.io/study/androidstudy/)
+
+## 필요한 공부 내용 ##
+### WebRTC 이해하기 ###
 <table border=1>
   <tr>
     <td>Youtube</td>
@@ -18,8 +23,6 @@
 </table>
 
 
-# 스마트문화콘텐츠 웹 & 앱개발 과정, 두 번 째 프로젝트 #
-[과정 Summary 보기](https://chanjungkim.github.io/study/androidstudy/)
 * ##### 3팀
 * ##### 팀장: [최수람]()
 * ##### 팀원: [김찬중](https://www.linkedin.com/in/chanjungkim/), [김현욱](), [이종률]()  
