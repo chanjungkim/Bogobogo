@@ -2,11 +2,11 @@
 <table border=1>
   <tr>
     <td>Youtube</td>
-    <td><a href="https://www.youtube.com/watch?v=Y1mx7cx6ckI&t=561s">Servers for WebRTC: It is not all Peer to Peer (Kranky Geek WebRTC Brazil 2016)</a>
+    <td><a href="https://www.youtube.com/watch?v=Y1mx7cx6ckI&t=561s">[Servers for WebRTC: It is not all Peer to Peer (Kranky Geek WebRTC Brazil 2016)]</a>
   </tr>
   <tr>
     <td>Blog</td>
-    <td><a href="https://www.html5rocks.com/ko/tutorials/webrtc/infrastructure/">WebRTC in the real world: STUN, TURN and signaling</a></td>
+    <td><a href="https://www.html5rocks.com/ko/tutorials/webrtc/infrastructure/">[WebRTC in the real world: STUN, TURN and signaling]</a></td>
   </tr>
   <tr>
     <td>Udemy</td>
