@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h4>여기는 footer입니다.</h4>
+	<h2>이 부분은 Footer입니다</h2>
 </body>
 </html>

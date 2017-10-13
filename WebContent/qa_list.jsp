@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h3>이 부분은 Header입니다.</h3>
+	<h2>Q&A 입니다</h2>
 </body>
 </html>
