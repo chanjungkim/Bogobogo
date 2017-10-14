@@ -1,4 +1,4 @@
-package servlet;
+package servlets;
 
 import java.io.IOException;
 
@@ -23,7 +23,7 @@ public class BoardServlet extends HttpServlet{
 		String path = "";
 		
 		if(type==null || type.equals("boardList")) {
-			// �Խ��� ��� �����ֱ� ���� �۾�.
+			// �Խ��� ���? �����ֱ� ���� �۾�.
 			// Ŭ���̾�Ʈ�� ��û�ϴ� ������ parameter �ޱ�
 			String pageStr = request.getParameter("p");
 			int page = 1;
@@ -37,21 +37,21 @@ public class BoardServlet extends HttpServlet{
 			
 			request.setAttribute("articlePage", articlePage);
 			
-			// �Խ��� ��� html ȭ���� ����� jsp���� forward
+			// �Խ��� ���? html ȭ���� �����? jsp���� forward
 			path = "board_list.jsp";
 		}else if(type.equals("writeForm")) {
 			// �� �Է� ȭ��html �����ϱ�
 			path = "write_form.jsp";
 		}else if(type.equals("read")) {
-			// �б� ��û �޾��� �� �� ��ȣ �Ķ���͵� �޾ƿ���
+			// �б� ��û �޾��� �� �� ��ȣ �Ķ���͵�? �޾ƿ���
 			String articleNumStr = 
 					request.getParameter("articleNum");
 			int articleNum = 0;
 			if(articleNumStr!=null && articleNumStr.length()>0) {
-				// �� ��ȣ �Ķ���͸� int�� ��ȯ
+				// �� ��ȣ �Ķ���͸�? int�� ��ȯ
 				articleNum = Integer.parseInt(articleNumStr);
 			}
-			// �� ���� �����ַ��� �������� �ش�� �������� �ؾ���.
+			// �� ���� �����ַ��� �������� �ش��? �������� �ؾ���.
 			Article article = 
 					service.readAndReadCount(articleNum);
 			
@@ -71,7 +71,7 @@ public class BoardServlet extends HttpServlet{
 				articleNum = 
 						Integer.parseInt(articleNumStr);
 			}
-			// ��ȸ�� ���� ���� ���� �� ��ȸ�ϴ� ���� ���
+			// ��ȸ�� ���� ���� ���� �� ��ȸ�ϴ� ���� ���?
 			Article original = 
 					service.readWithoutReadCount(articleNum);
 			
@@ -79,7 +79,7 @@ public class BoardServlet extends HttpServlet{
 			
 			path = "update_form.jsp";
 		} else if(type.equals("deleteForm")) {
-            // 글읽기에서 삭제하기 눌렀을 때 글번호 받기
+            // �??��기에?�� ?��?��?���? ?��???�� ?�� �?번호 받기
             String articleNumStr = 
                     request.getParameter("articleNum");
             int articleNum = 0;
@@ -87,7 +87,7 @@ public class BoardServlet extends HttpServlet{
                         && articleNumStr.length() > 0) {
                 articleNum = Integer.parseInt(articleNumStr);
             }
-            // 삭제할 글 번호만 delete_form.jsp에 전달
+            // ?��?��?�� �? 번호�? delete_form.jsp?�� ?��?��
             request.setAttribute("articleNum", articleNum);
             path = "delete_form.jsp";
         }
@@ -98,7 +98,7 @@ public class BoardServlet extends HttpServlet{
 		dispatcher.forward(request, response);
 	}
 ////////////////////////////////////////////////////////////	
-	// post ������� ���� ��û ó��
+	// post �������? ���� ��û ó��
 	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException ,IOException {
 		request.setCharacterEncoding("euc-kr");
